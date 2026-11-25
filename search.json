@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Mallards (Anas platyrhynchos) tagged at Lake Constance—a large freshwater lake along the border of southern Germany, Switzerland, and Austria—spend much of their time near home waters, but several migrate hundreds of kilometers northeast across Germany, Czechia, and Poland toward breeding grounds in northeastern Europe. Across the year, the ducks spend most hours resting or dabbling locally at speeds well under 1 m/s, with movement speeds and longer flights picking up noticeably in late summer and early autumn (July–October) and again during spring migration (February–April).\nThis project analyzes more than 83,000 GPS tracking fixes from 52 individual mallards collected between 2007 and 2017 by researchers at Radolfzell and published through the Movebank animal-tracking repository. Use the navigation bar above to explore the Map page, which plots the birds’ geographic tracks across Central and Eastern Europe, and the Seasons page, which compares monthly movement-speed distributions throughout the calendar year."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "# A tibble: 10 × 7\n   timestamp             lat  long speed heading duck_id      taxon             \n   &lt;dttm&gt;              &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;             \n 1 2007-11-23 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 2 2007-11-24 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 3 2007-11-26 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 4 2007-11-26 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 5 2007-11-27 05:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 6 2007-11-27 23:00:00  47.7  9.00    NA      NA Argos 77188A Anas platyrhynchos\n 7 2007-11-23 09:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n 8 2007-11-24 09:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n 9 2007-11-24 17:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n10 2007-11-25 05:00:00  47.7  9.00    NA      NA Argos 77189A Anas platyrhynchos\n\n\n\n\n# A tibble: 52 × 2\n   duck_id                        n\n   &lt;chr&gt;                      &lt;int&gt;\n 1 2351 - Radolfzell JC 72052 20169\n 2 1806 - Radolfzell JC70792  10139\n 3 2318 - Radolfzell JC 72053  9522\n 4 2312 - Radolfzell JC 72051  7163\n 5 2497 - Radolfzell JC74415   4835\n 6 2339 - Radolfzell JC 72018  4645\n 7 2495 - Radolfzell JC74406   3030\n 8 2501 - Radolfzell JC74418   2861\n 9 2502 - Radolfzell JC74417   2715\n10 2489 - Radolfzell JC74412   2514\n# ℹ 42 more rows\n\n\n\n\n# A tibble: 1 × 4\n  min_lat max_lat min_long max_long\n    &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;\n1    47.3    53.9     7.83     23.6"
+  }
+]
