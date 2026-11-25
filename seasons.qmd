@@ -1,0 +1,29 @@
+---
+title: "Seasons"
+---
+
+```{r}
+#| message: false
+
+library(tidyverse)
+library(ggridges)
+```
+
+```{r}
+mallards <- read_rds("data/mallards.rds")
+```
+
+```{r}
+#| message: false
+
+mallards |>
+  filter(speed <= 30) |>
+  ggplot(aes(x = speed, y = fct_rev(month))) +
+  geom_density_ridges(fill = "steelblue", alpha = 0.7) +
+  labs(
+    title = "Mallard Movement Speeds by Month",
+    x = "Speed (m/s)",
+    y = "Month"
+  ) +
+  theme_minimal()
+```
